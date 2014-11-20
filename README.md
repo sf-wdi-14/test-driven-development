@@ -1,6 +1,6 @@
 # Test Driven Development Lab
 
-1. Write tests for the following functions and then make the tests pass
+1. Write tests for the following functions and then make the tests pass (files prepared in `/test`)
 2. Push to your own branch of the test-driven-development repository
 3. Create a pull request into master
 
