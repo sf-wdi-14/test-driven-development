@@ -5,3 +5,7 @@ describe('#highestValue()', function() {
 		expect(highestValue([1, 2, 3])).to.equal(3);
 	});
 });
+
+var highestValue = function(array) {
+	return Math.max.apply(Math, array);
+}

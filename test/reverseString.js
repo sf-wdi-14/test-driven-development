@@ -5,3 +5,7 @@ describe('#reverseString()', function() {
 		expect(reverseString('Word')).to.equal('droW');
 	});
 });
+
+var reverseString = function(string) {
+	return string.split('').reverse().join('');
+}
