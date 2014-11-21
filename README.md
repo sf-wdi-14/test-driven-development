@@ -1,8 +1,9 @@
 # Test Driven Development Lab
 
 1. Write tests for the following functions and then make the tests pass (files prepared in `/test`)
-2. Push to your own branch of the test-driven-development repository
-3. Create a pull request into master
+2. Run specs by running `mocha`
+3. Push to your own branch of the test-driven-development repository
+4. Create a pull request into master
 
 ```javascript
 // Pass in a string and return the second to last word.
