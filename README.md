@@ -14,9 +14,9 @@ penultimateWord()
 // Also: sumOfDigits("123") should return 6 as well
 sumOfDigits()
 
-// Find the largest prime factor of an integer.
-// Example: largestPrimeFactor(6) should return 3
-largestPrimeFactor()
+// Find the highest value in an array of integers.
+// Example: highestValue([1, 2, 3]) should return 3
+highestValue()
 
 // Find the longest word of a string.
 // Example: longestWord("one two three") should return "three"
