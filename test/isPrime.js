@@ -9,3 +9,5 @@ describe('#isPrime()', function() {
 		expect(isPrime(4)).to.equal(false)
 	});
 });
+
+// Write the method that makes this test pass.
