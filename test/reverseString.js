@@ -5,3 +5,5 @@ describe('#reverseString()', function() {
 		expect(reverseString('Word')).to.equal('droW');
 	});
 });
+
+// Write the method that will make this test pass.
