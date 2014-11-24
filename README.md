@@ -6,7 +6,7 @@ To get set up, you need to
 2. Clone https://github.com/sf-wdi-14/test-driven-development and `$ cd` into it
 3. Run `$ mocha`
 4. Write tests for the following functions and then make the tests pass (files prepared in `/test`)
-5. Run specs by running `$ mocha`
+5. Run specs by running `$ mocha`; if this command cannot be found, run `$ npm install mocha chai -g` first
 6. Push to your own branch (named after your first name) of the test-driven-development repository
 
 ```javascript
