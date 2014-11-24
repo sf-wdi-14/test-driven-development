@@ -7,3 +7,8 @@ describe('#reverseString()', function() {
 });
 
 // Write the method that will make this test pass.
+function reverseString(word){
+	word = word.split("");
+	word.reverse();
+	return word.toString("");
+}
