@@ -7,7 +7,7 @@ To get set up, you need to
 3. Run `$ mocha`
 4. Write tests for the following functions and then make the tests pass (files prepared in `/test`)
 5. Run specs by running `$ mocha`
-6. Push to your own branch of the test-driven-development repository
+6. Push to your own branch (named after your first name) of the test-driven-development repository
 
 ```javascript
 // Pass in a string and return the second to last word.
