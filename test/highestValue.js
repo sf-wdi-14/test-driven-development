@@ -7,3 +7,15 @@ describe('#highestValue()', function() {
 });
 
 // Write the method that makes this test pass.
+
+var highestValue = function (arr) {
+	highestNum = 0;
+
+	for (var i = 0; i < arr.length ; i++) {
+		var number = arr[i];
+		if (number > highestNum) {
+			highestNum = number;
+		}
+	}
+	return highestNum;	
+}
