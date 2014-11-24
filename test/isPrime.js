@@ -1,6 +1,20 @@
+
+var isPrime = function(number) {
+	if (number === 1) return false;
+
+	for (var i = 2; i <= number / 2; i++) {
+		if (number % i === 0) return false;
+	}
+	return true;
+}
+
 var expect = require('chai').expect;
 
 describe('#isPrime()', function() {
+it('returns false for 1', function() {
+		expect(isPrime(1)).to.equal(false);
+	});
+
 	it('returns true for a prime number', function() {
 		expect(isPrime(5)).to.equal(true)
 	});
