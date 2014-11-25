@@ -7,3 +7,8 @@ describe('#highestValue()', function() {
 });
 
 // Write the method that makes this test pass.
+var highestValue = function(array) {
+    return array.sort().pop() 
+    	
+    };
+
