@@ -4,3 +4,13 @@ var expect = require('chai').expect;
 // Also test for the ability to pass in either a number as an integer, or as a string (e.g., 123 and '123'
 // should both work).
 // Then write the method that will make that test pass.
+
+var sums = function(num) {
+    myNum = 0;
+  for (var i = 0; i <= num; i++) {
+      myNum += i;
+  }
+  console.log(myNum);
+}
+ 
+sums(3);
