@@ -8,7 +8,9 @@ describe('#highestValue()', function() {
 
 // Write the method that makes this test pass.
 function highestValue (array){
-	array.sort();
+	array.sort(function(a,b){
+		return a-b;
+	});
 	var arrayLength = array.length;
 	var highestNum = array[arrayLength-1];
 	return highestNum;
