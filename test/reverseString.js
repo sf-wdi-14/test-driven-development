@@ -10,5 +10,5 @@ describe('#reverseString()', function() {
 function reverseString(word){
 	word = word.split("");
 	word.reverse();
-	return word.toString("");
+	return word.join("");
 }
