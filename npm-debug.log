@@ -1,0 +1,403 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'mocha', 'chai', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'mocha', null ]
+5 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'mocha',
+6 verbose parsed url   path: 'mocha',
+6 verbose parsed url   href: 'mocha' }
+7 verbose cache add [ 'chai', null ]
+8 verbose cache add name=undefined spec="chai" args=["chai",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'chai',
+9 verbose parsed url   path: 'chai',
+9 verbose parsed url   href: 'chai' }
+10 silly lockFile a619da43-mocha mocha
+11 verbose lock mocha /Users/ben/.npm/a619da43-mocha.lock
+12 silly lockFile 353fd541-chai chai
+13 verbose lock chai /Users/ben/.npm/353fd541-chai.lock
+14 silly lockFile a619da43-mocha mocha
+15 silly lockFile a619da43-mocha mocha
+16 silly lockFile 353fd541-chai chai
+17 silly lockFile 353fd541-chai chai
+18 verbose addNamed [ 'mocha', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile b9899f31-mocha mocha@
+21 verbose lock mocha@ /Users/ben/.npm/b9899f31-mocha.lock
+22 verbose addNamed [ 'chai', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 583c5f63-chai chai@
+25 verbose lock chai@ /Users/ben/.npm/583c5f63-chai.lock
+26 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+27 silly addNameRange { name: 'chai', range: '*', hasData: false }
+28 verbose request where is /mocha
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id b9e96931f5118eeb
+31 verbose url raw /mocha
+32 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+33 verbose url resolved https://registry.npmjs.org/mocha
+34 verbose request where is https://registry.npmjs.org/mocha
+35 info trying registry request attempt 1 at 09:59:34
+36 verbose etag "61SLLUBRVV0UQ1TAPMRE6Z7NI"
+37 http GET https://registry.npmjs.org/mocha
+38 verbose request where is /chai
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /chai
+41 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+42 verbose url resolved https://registry.npmjs.org/chai
+43 verbose request where is https://registry.npmjs.org/chai
+44 info trying registry request attempt 1 at 09:59:34
+45 verbose etag "4WN2RJ9G3VBTB67CCXFL0Y7NC"
+46 http GET https://registry.npmjs.org/chai
+47 http 304 https://registry.npmjs.org/mocha
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Mon, 24 Nov 2014 17:59:35 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Mon, 24 Nov 2014 17:59:31 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"61SLLUBRVV0UQ1TAPMRE6Z7NI"',
+48 silly registry.get     age: '30',
+48 silly registry.get     'x-served-by': 'cache-lax1421-LAX',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2',
+48 silly registry.get     'x-timer': 'S1416851975.065506,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/mocha from cache
+50 http 304 https://registry.npmjs.org/chai
+51 silly registry.get cb [ 304,
+51 silly registry.get   { date: 'Mon, 24 Nov 2014 17:59:35 GMT',
+51 silly registry.get     server: 'Apache',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     'last-modified': 'Mon, 24 Nov 2014 17:59:35 GMT',
+51 silly registry.get     'cache-control': 'max-age=60',
+51 silly registry.get     etag: '"4WN2RJ9G3VBTB67CCXFL0Y7NC"',
+51 silly registry.get     age: '15',
+51 silly registry.get     'x-served-by': 'cache-lax1433-LAX',
+51 silly registry.get     'x-cache': 'HIT',
+51 silly registry.get     'x-cache-hits': '1',
+51 silly registry.get     'x-timer': 'S1416851975.067708,VS0,VE0',
+51 silly registry.get     vary: 'Accept',
+51 silly registry.get     'content-length': '0',
+51 silly registry.get     'keep-alive': 'timeout=10, max=50',
+51 silly registry.get     connection: 'Keep-Alive' } ]
+52 verbose etag https://registry.npmjs.org/chai from cache
+53 silly addNameRange number 2 { name: 'mocha', range: '*', hasData: true }
+54 silly addNameRange versions [ 'mocha',
+54 silly addNameRange   [ '0.0.1-alpha1',
+54 silly addNameRange     '0.0.1-alpha2',
+54 silly addNameRange     '0.0.1-alpha3',
+54 silly addNameRange     '0.0.1-alpha4',
+54 silly addNameRange     '0.0.1-alpha5',
+54 silly addNameRange     '0.0.1-alpha6',
+54 silly addNameRange     '0.0.1',
+54 silly addNameRange     '0.0.2',
+54 silly addNameRange     '0.0.3',
+54 silly addNameRange     '0.0.4',
+54 silly addNameRange     '0.0.5',
+54 silly addNameRange     '0.0.6',
+54 silly addNameRange     '0.0.7',
+54 silly addNameRange     '0.0.8',
+54 silly addNameRange     '0.1.0',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.3.0',
+54 silly addNameRange     '0.3.1',
+54 silly addNameRange     '0.3.2',
+54 silly addNameRange     '0.3.3',
+54 silly addNameRange     '0.3.4',
+54 silly addNameRange     '0.3.6',
+54 silly addNameRange     '0.4.0',
+54 silly addNameRange     '0.5.0',
+54 silly addNameRange     '0.6.0',
+54 silly addNameRange     '0.7.0',
+54 silly addNameRange     '0.7.1',
+54 silly addNameRange     '0.8.0',
+54 silly addNameRange     '0.8.1',
+54 silly addNameRange     '0.9.0',
+54 silly addNameRange     '0.10.0',
+54 silly addNameRange     '0.10.1',
+54 silly addNameRange     '0.10.2',
+54 silly addNameRange     '0.11.0',
+54 silly addNameRange     '0.12.0',
+54 silly addNameRange     '0.12.1',
+54 silly addNameRange     '0.13.0',
+54 silly addNameRange     '0.14.0',
+54 silly addNameRange     '0.14.1',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.0.2',
+54 silly addNameRange     '1.0.3',
+54 silly addNameRange     '1.1.0',
+54 silly addNameRange     '1.2.0',
+54 silly addNameRange     '1.2.1',
+54 silly addNameRange     '1.2.2',
+54 silly addNameRange     '1.3.0',
+54 silly addNameRange     '1.3.1',
+54 silly addNameRange     '1.3.2',
+54 silly addNameRange     '1.4.0',
+54 silly addNameRange     '1.4.1',
+54 silly addNameRange     '1.4.2',
+54 silly addNameRange     '1.4.3',
+54 silly addNameRange     '1.5.0',
+54 silly addNameRange     '1.6.0',
+54 silly addNameRange     '1.7.0',
+54 silly addNameRange     '1.7.1',
+54 silly addNameRange     '1.7.2',
+54 silly addNameRange     '1.7.3',
+54 silly addNameRange     '1.7.4',
+54 silly addNameRange     '1.8.0',
+54 silly addNameRange     '1.8.1',
+54 silly addNameRange     '1.8.2',
+54 silly addNameRange     '1.9.0',
+54 silly addNameRange     '1.10.0',
+54 silly addNameRange     '1.11.0',
+54 silly addNameRange     '1.12.0',
+54 silly addNameRange     '1.12.1',
+54 silly addNameRange     '1.13.0',
+54 silly addNameRange     '1.14.0',
+54 silly addNameRange     '1.15.0',
+54 silly addNameRange     '1.15.1',
+54 silly addNameRange     '1.16.0',
+54 silly addNameRange     '1.16.1',
+54 silly addNameRange     '1.16.2',
+54 silly addNameRange     '1.17.0',
+54 silly addNameRange     '1.17.1',
+54 silly addNameRange     '1.18.0',
+54 silly addNameRange     '1.18.1',
+54 silly addNameRange     '1.18.2',
+54 silly addNameRange     '1.19.0',
+54 silly addNameRange     '1.20.0',
+54 silly addNameRange     '1.20.1',
+54 silly addNameRange     '1.21.0',
+54 silly addNameRange     '1.21.1',
+54 silly addNameRange     '1.21.2',
+54 silly addNameRange     '1.21.3',
+54 silly addNameRange     '1.21.4',
+54 silly addNameRange     '1.21.5',
+54 silly addNameRange     '2.0.0',
+54 silly addNameRange     '2.0.1' ] ]
+55 verbose addNamed [ 'mocha', '2.0.1' ]
+56 verbose addNamed [ '2.0.1', '2.0.1' ]
+57 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+58 verbose lock mocha@2.0.1 /Users/ben/.npm/5f39746a-mocha-2-0-1.lock
+59 silly addNameRange number 2 { name: 'chai', range: '*', hasData: true }
+60 silly addNameRange versions [ 'chai',
+60 silly addNameRange   [ '0.0.1',
+60 silly addNameRange     '0.0.2',
+60 silly addNameRange     '0.1.0',
+60 silly addNameRange     '0.1.1',
+60 silly addNameRange     '0.1.2',
+60 silly addNameRange     '0.1.3',
+60 silly addNameRange     '0.1.4',
+60 silly addNameRange     '0.1.5',
+60 silly addNameRange     '0.1.6',
+60 silly addNameRange     '0.1.7',
+60 silly addNameRange     '0.2.0',
+60 silly addNameRange     '0.2.1',
+60 silly addNameRange     '0.2.2',
+60 silly addNameRange     '0.2.3',
+60 silly addNameRange     '0.2.4',
+60 silly addNameRange     '0.3.0',
+60 silly addNameRange     '0.3.1',
+60 silly addNameRange     '0.3.2',
+60 silly addNameRange     '0.3.3',
+60 silly addNameRange     '0.3.4',
+60 silly addNameRange     '0.4.0',
+60 silly addNameRange     '0.4.1',
+60 silly addNameRange     '0.4.2',
+60 silly addNameRange     '0.5.0',
+60 silly addNameRange     '0.5.1',
+60 silly addNameRange     '0.5.2',
+60 silly addNameRange     '0.5.3',
+60 silly addNameRange     '1.0.0',
+60 silly addNameRange     '1.0.1',
+60 silly addNameRange     '1.0.2',
+60 silly addNameRange     '1.0.3',
+60 silly addNameRange     '1.0.4',
+60 silly addNameRange     '1.1.0',
+60 silly addNameRange     '1.1.1',
+60 silly addNameRange     '1.2.0',
+60 silly addNameRange     '1.3.0',
+60 silly addNameRange     '1.4.0',
+60 silly addNameRange     '1.4.1',
+60 silly addNameRange     '1.4.2',
+60 silly addNameRange     '1.5.0',
+60 silly addNameRange     '1.6.0',
+60 silly addNameRange     '1.6.1',
+60 silly addNameRange     '1.7.0',
+60 silly addNameRange     '1.7.1',
+60 silly addNameRange     '1.7.2',
+60 silly addNameRange     '1.8.0',
+60 silly addNameRange     '1.8.1',
+60 silly addNameRange     '1.9.0',
+60 silly addNameRange     '1.9.1',
+60 silly addNameRange     '1.9.2',
+60 silly addNameRange     '1.10.0' ] ]
+61 verbose addNamed [ 'chai', '1.10.0' ]
+62 verbose addNamed [ '1.10.0', '1.10.0' ]
+63 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+64 verbose lock chai@1.10.0 /Users/ben/.npm/6724da50-chai-1-10-0.lock
+65 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+66 silly lockFile 5f39746a-mocha-2-0-1 mocha@2.0.1
+67 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+68 silly lockFile 6724da50-chai-1-10-0 chai@1.10.0
+69 silly lockFile b9899f31-mocha mocha@
+70 silly lockFile b9899f31-mocha mocha@
+71 silly lockFile 583c5f63-chai chai@
+72 silly lockFile 583c5f63-chai chai@
+73 silly resolved [ { name: 'mocha',
+73 silly resolved     version: '2.0.1',
+73 silly resolved     description: 'simple, flexible, fun test framework',
+73 silly resolved     keywords: [ 'mocha', 'test', 'bdd', 'tdd', 'tap' ],
+73 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+73 silly resolved     contributors:
+73 silly resolved      [ [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object],
+73 silly resolved        [Object] ],
+73 silly resolved     repository: { type: 'git', url: 'git://github.com/mochajs/mocha.git' },
+73 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+73 silly resolved     main: './index',
+73 silly resolved     browser: './mocha.js',
+73 silly resolved     bin: { mocha: './bin/mocha', _mocha: './bin/_mocha' },
+73 silly resolved     engines: { node: '>= 0.8.x' },
+73 silly resolved     scripts: { test: 'make test-all' },
+73 silly resolved     dependencies:
+73 silly resolved      { commander: '2.3.0',
+73 silly resolved        debug: '2.0.0',
+73 silly resolved        diff: '1.0.8',
+73 silly resolved        'escape-string-regexp': '1.0.2',
+73 silly resolved        glob: '3.2.3',
+73 silly resolved        growl: '1.8.1',
+73 silly resolved        jade: '0.26.3',
+73 silly resolved        mkdirp: '0.5.0' },
+73 silly resolved     devDependencies: { 'coffee-script': '~1.8.0', should: '~4.0.0' },
+73 silly resolved     files:
+73 silly resolved      [ 'bin',
+73 silly resolved        'images',
+73 silly resolved        'lib',
+73 silly resolved        'index.js',
+73 silly resolved        'mocha.css',
+73 silly resolved        'mocha.js',
+73 silly resolved        'LICENSE' ],
+73 silly resolved     licenses: [ [Object] ],
+73 silly resolved     bugs: { url: 'https://github.com/mochajs/mocha/issues' },
+73 silly resolved     homepage: 'https://github.com/mochajs/mocha',
+73 silly resolved     _id: 'mocha@2.0.1',
+73 silly resolved     _shasum: '5a16e88b856d0c4145d8c6888c27ebd4fab13e90',
+73 silly resolved     _from: 'mocha@',
+73 silly resolved     _npmVersion: '1.4.9',
+73 silly resolved     _npmUser: { name: 'travisjeffery', email: 'tj@travisjeffery.com' },
+73 silly resolved     dist:
+73 silly resolved      { shasum: '5a16e88b856d0c4145d8c6888c27ebd4fab13e90',
+73 silly resolved        tarball: 'http://registry.npmjs.org/mocha/-/mocha-2.0.1.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/mocha/-/mocha-2.0.1.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' },
+73 silly resolved   { author: { name: 'Jake Luer', email: 'jake@alogicalparadox.com' },
+73 silly resolved     name: 'chai',
+73 silly resolved     description: 'BDD/TDD assertion library for node.js and the browser. Test framework agnostic.',
+73 silly resolved     keywords: [ 'test', 'assertion', 'assert', 'testing', 'chai' ],
+73 silly resolved     homepage: 'http://chaijs.com',
+73 silly resolved     license: 'MIT',
+73 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+73 silly resolved     version: '1.10.0',
+73 silly resolved     repository: { type: 'git', url: 'https://github.com/chaijs/chai' },
+73 silly resolved     bugs: { url: 'https://github.com/chaijs/chai/issues' },
+73 silly resolved     main: './index',
+73 silly resolved     scripts: { test: 'make test' },
+73 silly resolved     engines: { node: '>= 0.4.0' },
+73 silly resolved     dependencies: { 'assertion-error': '1.0.0', 'deep-eql': '0.1.3' },
+73 silly resolved     devDependencies:
+73 silly resolved      { component: '*',
+73 silly resolved        karma: '0.12.x',
+73 silly resolved        'karma-mocha': '*',
+73 silly resolved        'karma-sauce-launcher': '0.2.x',
+73 silly resolved        'karma-phantomjs-launcher': '0.1.1',
+73 silly resolved        mocha: '1.21.x',
+73 silly resolved        istanbul: '0.2.x' },
+73 silly resolved     gitHead: 'c8b3208ce4237d4e0b16508174d616f155c984a2',
+73 silly resolved     _id: 'chai@1.10.0',
+73 silly resolved     _shasum: 'e4031cc87654461a75943e5a35ab46eaf39c1eb9',
+73 silly resolved     _from: 'chai@',
+73 silly resolved     _npmVersion: '2.0.0',
+73 silly resolved     _npmUser: { name: 'jakeluer', email: 'jake@alogicalparadox.com' },
+73 silly resolved     maintainers: [ [Object] ],
+73 silly resolved     dist:
+73 silly resolved      { shasum: 'e4031cc87654461a75943e5a35ab46eaf39c1eb9',
+73 silly resolved        tarball: 'http://registry.npmjs.org/chai/-/chai-1.10.0.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/chai/-/chai-1.10.0.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' } ]
+74 info install mocha@2.0.1 into /usr/local/lib
+75 info install chai@1.10.0 into /usr/local/lib
+76 info installOne mocha@2.0.1
+77 info installOne chai@1.10.0
+78 verbose lib/node_modules/mocha unbuild
+79 verbose lib/node_modules/chai unbuild
+80 verbose tar unpack /Users/ben/.npm/mocha/2.0.1/package.tgz
+81 silly lockFile 746f3f6f-usr-local-lib-node-modules-mocha tar:///usr/local/lib/node_modules/mocha
+82 verbose lock tar:///usr/local/lib/node_modules/mocha /Users/ben/.npm/746f3f6f-usr-local-lib-node-modules-mocha.lock
+83 silly lockFile d4f3ba25--ben-npm-mocha-2-0-1-package-tgz tar:///Users/ben/.npm/mocha/2.0.1/package.tgz
+84 verbose lock tar:///Users/ben/.npm/mocha/2.0.1/package.tgz /Users/ben/.npm/d4f3ba25--ben-npm-mocha-2-0-1-package-tgz.lock
+85 verbose tar unpack /Users/ben/.npm/chai/1.10.0/package.tgz
+86 silly lockFile 5ccb9df2--usr-local-lib-node-modules-chai tar:///usr/local/lib/node_modules/chai
+87 verbose lock tar:///usr/local/lib/node_modules/chai /Users/ben/.npm/5ccb9df2--usr-local-lib-node-modules-chai.lock
+88 silly lockFile 154bcb9f--ben-npm-chai-1-10-0-package-tgz tar:///Users/ben/.npm/chai/1.10.0/package.tgz
+89 verbose lock tar:///Users/ben/.npm/chai/1.10.0/package.tgz /Users/ben/.npm/154bcb9f--ben-npm-chai-1-10-0-package-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha'
+92 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha']
+92 error   errno: 3,
+92 error   code: 'EACCES',
+92 error   path: '/usr/local/lib/node_modules/mocha',
+92 error   fstream_type: 'Directory',
+92 error   fstream_path: '/usr/local/lib/node_modules/mocha',
+92 error   fstream_class: 'DirWriter',
+92 error   fstream_stack:
+92 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+92 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+92 error      'Object.oncomplete (fs.js:107:15)' ] }
+93 error Please try running this command again as root/Administrator.
+94 error System Darwin 14.0.0
+95 error command "node" "/usr/local/bin/npm" "install" "mocha" "chai" "-g"
+96 error cwd /Users/ben/code/sf-wdi-14/test-driven-development
+97 error node -v v0.10.33
+98 error npm -v 1.4.28
+99 error path /usr/local/lib/node_modules/mocha
+100 error fstream_path /usr/local/lib/node_modules/mocha
+101 error fstream_type Directory
+102 error fstream_class DirWriter
+103 error code EACCES
+104 error errno 3
+105 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mocha'
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+106 error fstream_stack Object.oncomplete (fs.js:107:15)
+107 verbose exit [ 3, true ]
