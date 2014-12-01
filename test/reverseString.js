@@ -7,3 +7,11 @@ describe('#reverseString()', function() {
 });
 
 // Write the method that will make this test pass.
+var reverseString = function(s) {
+	var l = s.length;
+	var revString = "";
+	for (i=l-1;i>=0;i--) {
+		revString = revString + s[i];
+	}
+	return revString;
+}
