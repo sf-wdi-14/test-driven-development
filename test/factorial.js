@@ -7,7 +7,7 @@ describe('#userNumber()', function() {
 	});
 });
 
-var factorial = function(num)
+var userNumber = function(num)
 {
     // If the number is less than 0, reject it.
     if (num < 0) {
@@ -24,4 +24,4 @@ var factorial = function(num)
     return tmp;
 }
 
-factorial(3)
+// factorial(3)

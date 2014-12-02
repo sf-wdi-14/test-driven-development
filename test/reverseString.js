@@ -9,4 +9,4 @@ describe('#reverseString()', function() {
 // Write the method that will make this test pass.
 var reverseString = function(string) {
 	return string.split("").reverse().join("");
-}
+};
