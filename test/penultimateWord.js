@@ -5,10 +5,16 @@ var expect = require('chai').expect;
 
 describe('#penultimateWord()', function() {
 	it('returns the second to last word in a string', function() {
-		expect(longestWord("I want a prancing polkadotted pony")).to.equal("polkadotted");
+		expect(penultimateWord("I want a prancing polkadotted pony")).to.equal("polkadotted");
 	});
 });
 
+var tempArray = [];
+var penultimate;
+
 function penultimateWord (words) {
-	
+    // var tempArray = [];
+	tempArray = words.split(" ");
+	penultimate = tempArray[tempArray.length-2];
+	return penultimate;
 }
